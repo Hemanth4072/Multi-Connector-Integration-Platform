@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: connector-platform
+  datasource:
+    url: jdbc:h2:mem:connector-platform
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+
+connector:
+  razorpay:
+    base-url: https://api.razorpay.com/v1
+  hubspot:
+    base-url: https://api.hubapi.com
+
+security:
+  jwt:
+    secret: your-secret-key
+    expiration: 86400000
