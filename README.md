@@ -133,9 +133,7 @@ Application configuration is managed through:
 4. Push to your branch.
 5. Open a Pull Request.
 
-## License
 
-This project is licensed under the MIT License.
 
 ## Author
 
